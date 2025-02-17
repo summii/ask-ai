@@ -4,7 +4,7 @@ import asyncio
 from openai import AsyncOpenAI, OpenAI
 from dotenv import load_dotenv
 from multiprocessing import Pool
-from functools import partial
+# from functools import partial
 
 load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
