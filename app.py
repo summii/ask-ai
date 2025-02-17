@@ -10,9 +10,9 @@ load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 # model constants
-CONTEXT_GATHERER = "google/gemini-2.0-flash-001"
-CHAT_MODEL = "google/gemini-2.0-flash-001"
-
+CONTEXT_GATHERER = "openai/gpt-4o-mini"
+CHAT_MODEL = "openai/gpt-4o-mini"
+ 
 #Streamlit UI
 
 def main():
